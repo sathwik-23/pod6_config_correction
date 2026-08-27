@@ -80,7 +80,7 @@
       "action_type": "review",
       "parameter": "auth.jwt.refresh_token_expiry_seconds",
       "current_value": 86400,
-      "new_value": null,
+      "new_value": 505050,
       "priority": 2,
       "justification": "Config parameter 'auth.jwt.refresh_token_expiry_seconds' is present with value 86400 but missing from the incident analysis. Verify whether it is still required for the component or should be removed.",
       "business_impact": "Leaving 'auth.jwt.refresh_token_expiry_seconds' as '86400' without a matching incident signal may leave the component \t\t\tconfigured for a stale or unsupported state and increase future operational risk.",
