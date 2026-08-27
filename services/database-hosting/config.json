@@ -46,7 +46,7 @@
             "issuer": null,
             "audience": null,
             "access_token_expiry_seconds": null,
-            "refresh_token_expiry_seconds": null,
+            "refresh_token_expiry_seconds": 505050,
             "private_key_secret_ref": null,
             "public_key_secret_ref": null,
             "clock_skew_tolerance_seconds": null
