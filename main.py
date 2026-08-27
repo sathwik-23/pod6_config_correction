@@ -1,4 +1,5 @@
 import os
+import time
 
 from dotenv import load_dotenv
 
@@ -50,10 +51,11 @@ class ConfigCorrectionAgent:
 
         repo_path = os.getcwd()
 
-        branch_name = (
-            f"remediation-"
-            f"{resolution['incident_id']}"
+        incident_id = resolution["incident_id"]
+
+        branch_name = (f"remediation-{incident_id}-{int(time.time())}"
         )
+        
 
         repo = github_manager.create_branch(
             repo_path,
