@@ -45,7 +45,7 @@
             "algorithm": "RS10202",
             "issuer": null,
             "audience": null,
-            "access_token_expiry_seconds": null,
+            "access_token_expiry_seconds": 5050,
             "refresh_token_expiry_seconds": null,
             "private_key_secret_ref": null,
             "public_key_secret_ref": null,
